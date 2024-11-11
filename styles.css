@@ -82,6 +82,9 @@ body {
     text-align: center; /* Centrar el texto dentro de la sección */
     padding: 20px; /* Espaciado alrededor de la sección */
 }
+html {
+    scroll-behavior: smooth; /* Hace el scroll fluido */
+}
 
 /* Contenedor de la galería */
 .bodegas-galeria {
@@ -169,4 +172,57 @@ body {
     background: #fff; /* Cambiar fondo a blanco al pasar el ratón */
     color: rgb(210, 34, 34); /* Cambiar el color del texto al pasar el ratón */
     transition: 0.5s; /* Transición suave */
+}
+
+/* Sección de Contacto */
+section {
+    background-color: #fff; /* Fondo blanco para la sección de contacto */
+    padding: 40px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    margin: 40px auto; /* Margen superior e inferior */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 1200px; /* Aseguramos que no se estire más de 1200px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+section p {
+    font-size: 1.2em; 
+    margin-bottom: 15px; 
+    color: #555; 
+}
+
+section p a {
+    color: rgb(210, 34, 34); 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+section p a:hover {
+    text-decoration: underline; 
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline; 
 }
